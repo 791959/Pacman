@@ -38,7 +38,7 @@ public class PacmanMove : MonoBehaviour
         if (m_pacmanState == Pacman_Invicible)
         {
             m_invicibleTimer -= Time.deltaTime;
-            if (m_invicibleTimer <= m_invicibleFlashTime)//小于闪烁时间时，每隔0.5s闪烁
+            if (m_invicibleTimer <= m_invicibleFlashTime)//
             {
                 m_invicibleFlashTimer += Time.deltaTime;
                 if (m_invicibleFlashTimer >= 0.5f)
